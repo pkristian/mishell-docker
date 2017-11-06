@@ -1,0 +1,10 @@
+version: '3'
+services:
+  mishell-test:
+    container_name: mishell-docker-dev
+    build: ../.
+    volumes:
+      - "./mishell/log:/mishell/log"
+      - "./mishell/profiles:/mishell/profiles"
+      - "./mishell/ssh:/mishell/ssh"
+      - "./mishell/www:/mishell/www"

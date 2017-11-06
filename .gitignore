@@ -1,0 +1,5 @@
+.idea
+*.log
+tests/mishell/ssh/known_hosts
+tests/mishell/www/
+
