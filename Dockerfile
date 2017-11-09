@@ -22,5 +22,6 @@ RUN		set -x \
 		-o /mishell.phar
 
 COPY	docker-mishell-entrypoint /
+RUN		chmod +x /docker-mishell-entrypoint
 
 ENTRYPOINT	["/docker-mishell-entrypoint"]
